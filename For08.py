@@ -7,7 +7,7 @@ def main(N):
         float: return  answer
     """
     r=0
-    for i in range(N):
+    for i in range(N+1):
         if i>0:
             r+=(1/i)
     return r
