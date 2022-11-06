@@ -7,8 +7,8 @@ def main(price):
         list: return  answer
     """
     r=[]
-    for i in range(10):
+    for i in range(11):
         if i>0:
             r.append(i*price)
     return r
-price(main(2.25))
+print(main(2.25))
